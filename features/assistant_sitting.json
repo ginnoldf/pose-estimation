@@ -1,0 +1,74 @@
+{
+    "left_leg": {
+        "upper_len": {
+            "value": 37.425737080249995,
+            "confidence": 0.686611290176
+        },
+        "lower_len": {
+            "value": 90.92300219966343,
+            "confidence": 0.6855926329919999
+        },
+        "proportion": {
+            "value": 0.4116201200447001,
+            "confidence": 0.4707356422737979
+        },
+        "angle": {
+            "value": 250.15322902783473,
+            "confidence": 0.5180296799329572
+        }
+    },
+    "right_leg": {
+        "upper_len": {
+            "value": 31.041957436508422,
+            "confidence": 0.6912706512560001
+        },
+        "lower_len": {
+            "value": 93.22488242207655,
+            "confidence": 0.701195375496
+        },
+        "proportion": {
+            "value": 0.3329793144277261,
+            "confidence": 0.4847157838768154
+        },
+        "angle": {
+            "value": 109.38396491622592,
+            "confidence": 0.5343010593926951
+        }
+    },
+    "left_arm": {
+        "upper_len": {
+            "value": 43.58280550859478,
+            "confidence": 0.753107782791
+        },
+        "lower_len": {
+            "value": 16.731971073367315,
+            "confidence": 0.8205432504360001
+        },
+        "proportion": {
+            "value": 2.6047621835760038,
+            "confidence": 0.6179575080199763
+        },
+        "angle": {
+            "value": 168.44507188837287,
+            "confidence": 0.6844815891919529
+        }
+    },
+    "right_arm": {
+        "upper_len": {
+            "value": 43.766012710892454,
+            "confidence": 0.773962689146
+        },
+        "lower_len": {
+            "value": 19.608106084219358,
+            "confidence": 0.82161875674
+        },
+        "proportion": {
+            "value": 2.232036715984285,
+            "confidence": 0.6359022624192836
+        },
+        "angle": {
+            "value": 164.08588281825564,
+            "confidence": 0.6885017290104987
+        }
+    }
+}

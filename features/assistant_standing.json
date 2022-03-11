@@ -1,0 +1,74 @@
+{
+    "left_leg": {
+        "upper_len": {
+            "value": 68.43281838416418,
+            "confidence": 0.582030621876
+        },
+        "lower_len": {
+            "value": 58.81145402045423,
+            "confidence": 0.6470431038719999
+        },
+        "proportion": {
+            "value": 1.1635967775998823,
+            "confidence": 0.3765989001271974
+        },
+        "angle": {
+            "value": 177.00653566276378,
+            "confidence": 0.46242100095799443
+        }
+    },
+    "right_leg": {
+        "upper_len": {
+            "value": 68.48081367799305,
+            "confidence": 0.574647356738
+        },
+        "lower_len": {
+            "value": 59.699216159008294,
+            "confidence": 0.662700111703
+        },
+        "proportion": {
+            "value": 1.147097367168022,
+            "confidence": 0.38081886750010635
+        },
+        "angle": {
+            "value": 179.44778759573433,
+            "confidence": 0.4629583218350456
+        }
+    },
+    "left_arm": {
+        "upper_len": {
+            "value": 40.28165692967458,
+            "confidence": 0.78726618828
+        },
+        "lower_len": {
+            "value": 32.33949054948144,
+            "confidence": 0.7745636733119999
+        },
+        "proportion": {
+            "value": 1.2455872447353842,
+            "confidence": 0.6097877906684933
+        },
+        "angle": {
+            "value": 183.83214760400017,
+            "confidence": 0.6755783086810929
+        }
+    },
+    "right_arm": {
+        "upper_len": {
+            "value": 40.281160739978674,
+            "confidence": 0.7493850970379999
+        },
+        "lower_len": {
+            "value": 37.18909981432731,
+            "confidence": 0.752327693936
+        },
+        "proportion": {
+            "value": 1.083144279939256,
+            "confidence": 0.5637831619246041
+        },
+        "angle": {
+            "value": 175.91331064022302,
+            "confidence": 0.6508439543178911
+        }
+    }
+}
