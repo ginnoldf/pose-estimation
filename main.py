@@ -33,7 +33,6 @@ def load_pose_keypoints(filepath):
 
 # calculate the distance between two given keypoints
 def distance_kp(a, b):
-
     # distance between two points in two dimensions
     distance = sqrt((b['x'] - a['x'])**2 + (b['y'] - a['y'])**2)
     
@@ -45,7 +44,6 @@ def distance_kp(a, b):
 
 # calculate the angle between three given keypoints, where b is in the middle
 def angle_kp(a, b, c):
-    
     # calculate the angle in degrees and return in [0, 360]
     # see https://manivannan-ai.medium.com/find-the-angle-between-three-points-from-2d-using-python-348c513e2cd
     angle = degrees(atan2(c['y']-b['y'], c['x']-b['x']) - atan2(a['y']-b['y'], a['x']-b['x']))
