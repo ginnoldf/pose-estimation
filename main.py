@@ -101,25 +101,25 @@ def calculate_features(kps):
 def estimate_pose(features):
     # define average and standard deviation for gaussian distributions
     # we took mean and standard devition from our images
-    left_leg_proportion_standing_avg = 1.2
-    left_leg_proportion_standing_std = 0.1
-    left_leg_proportion_sitting_avg = 0.4
-    left_leg_proportion_sitting_std = 0.1
+    left_leg_proportion_standing_avg = 1.0519878700043677
+    left_leg_proportion_standing_std = 0.08981230199408799
+    left_leg_proportion_sitting_avg = 0.45322655865346656
+    left_leg_proportion_sitting_std = 0.12083943126861253
 
-    left_leg_angle_standing_avg = 180
-    left_leg_angle_standing_std = 10
-    left_leg_angle_sitting_avg = 250
-    left_leg_angle_sitting_std = 10
+    left_leg_angle_standing_avg = 178.65036344703523
+    left_leg_angle_standing_std = 1.8555851126259
+    left_leg_angle_sitting_avg = 233.52015463492816
+    left_leg_angle_sitting_std = 11.745676370714413
 
-    right_leg_proportion_standing_avg = 1.2
-    right_leg_proportion_standing_std = 0.1
-    right_leg_proportion_sitting_avg = 0.4
-    right_leg_proportion_sitting_std = 0.1
+    right_leg_proportion_standing_avg = 1.0757405597577683
+    right_leg_proportion_standing_std = 0.06733154545990096
+    right_leg_proportion_sitting_avg = 0.4272399374727265
+    right_leg_proportion_sitting_std = 0.13274836951729757
 
-    right_leg_angle_standing_avg = 180
-    right_leg_angle_standing_std = 10
-    right_leg_angle_sitting_avg = 110
-    right_leg_angle_sitting_std = 10
+    right_leg_angle_standing_avg = 179.9209401578748
+    right_leg_angle_standing_std = 2.783950024390588
+    right_leg_angle_sitting_avg = 124.4368929336925
+    right_leg_angle_sitting_std = 8.710337895533792
 
     # define gaussian distributions for the features
     left_leg_proportion_standing_dist = scipy.stats.norm(left_leg_proportion_standing_avg, left_leg_proportion_standing_std)

@@ -1,0 +1,74 @@
+{
+    "left_leg": {
+        "upper_len": {
+            "value": 611.1410156420529,
+            "confidence": 0.670658010124
+        },
+        "lower_len": {
+            "value": 567.3151802129046,
+            "confidence": 0.755055151535
+        },
+        "proportion": {
+            "value": 1.077251300437089,
+            "confidence": 0.5063837854623383
+        },
+        "angle": {
+            "value": 180.11693938837075,
+            "confidence": 0.5750590640708744
+        }
+    },
+    "right_leg": {
+        "upper_len": {
+            "value": 600.6976148612547,
+            "confidence": 0.659356735392
+        },
+        "lower_len": {
+            "value": 577.4830668513148,
+            "confidence": 0.759962517744
+        },
+        "proportion": {
+            "value": 1.0401995302416667,
+            "confidence": 0.5010864047199688
+        },
+        "angle": {
+            "value": 182.08482861580097,
+            "confidence": 0.579483579180084
+        }
+    },
+    "left_arm": {
+        "upper_len": {
+            "value": 444.7653850065221,
+            "confidence": 0.840905463232
+        },
+        "lower_len": {
+            "value": 389.3012130728594,
+            "confidence": 0.8226922747
+        },
+        "proportion": {
+            "value": 1.1424710996810645,
+            "confidence": 0.6918064283539912
+        },
+        "angle": {
+            "value": 189.7116396107983,
+            "confidence": 0.7545865174312352
+        }
+    },
+    "right_arm": {
+        "upper_len": {
+            "value": 451.2261336624907,
+            "confidence": 0.8336272702399999
+        },
+        "lower_len": {
+            "value": 389.8589461279552,
+            "confidence": 0.853509653204
+        },
+        "proportion": {
+            "value": 1.1574086939495143,
+            "confidence": 0.7115089223239395
+        },
+        "angle": {
+            "value": 175.1166110687954,
+            "confidence": 0.7677148628639339
+        }
+    }
+}

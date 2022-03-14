@@ -1,0 +1,74 @@
+{
+    "left_leg": {
+        "upper_len": {
+            "value": 96.59310172056807,
+            "confidence": 0.677434617104
+        },
+        "lower_len": {
+            "value": 148.74319244254505,
+            "confidence": 0.692097509782
+        },
+        "proportion": {
+            "value": 0.6493951093451154,
+            "confidence": 0.46885081153780106
+        },
+        "angle": {
+            "value": 238.7161613635335,
+            "confidence": 0.5537167652861478
+        }
+    },
+    "right_leg": {
+        "upper_len": {
+            "value": 98.28647136305176,
+            "confidence": 0.692706269801
+        },
+        "lower_len": {
+            "value": 151.58571227196845,
+            "confidence": 0.7272880978090001
+        },
+        "proportion": {
+            "value": 0.6483887557074672,
+            "confidence": 0.5037970253039373
+        },
+        "angle": {
+            "value": 129.20951315127272,
+            "confidence": 0.5854109175527138
+        }
+    },
+    "left_arm": {
+        "upper_len": {
+            "value": 96.29103574580554,
+            "confidence": 0.7788373027719999
+        },
+        "lower_len": {
+            "value": 64.86553624999952,
+            "confidence": 0.811393053146
+        },
+        "proportion": {
+            "value": 1.4844714360286546,
+            "confidence": 0.6319431770001686
+        },
+        "angle": {
+            "value": 185.21016955968267,
+            "confidence": 0.7192009516614452
+        }
+    },
+    "right_arm": {
+        "upper_len": {
+            "value": 101.91294976105833,
+            "confidence": 0.75417815352
+        },
+        "lower_len": {
+            "value": 71.0466414266009,
+            "confidence": 0.8187126480720001
+        },
+        "proportion": {
+            "value": 1.4344513366806475,
+            "confidence": 0.6174551931864105
+        },
+        "angle": {
+            "value": 173.71514377317706,
+            "confidence": 0.6864823682818912
+        }
+    }
+}
