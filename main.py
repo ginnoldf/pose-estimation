@@ -146,11 +146,9 @@ def estimate_pose(features):
     right_leg_angle_sitting_prob = right_leg_angle_sitting_dist.pdf(features['right_leg']['angle']['value']) * features['right_leg']['angle']['confidence']
 
     # average over the pose probabilities to get a final probability
-    standing_prob = (left_leg_proportion_standing_prob + left_leg_angle_standing_prob + right_leg_proportion_standing_prob + right_leg_angle_standing_prob)/4
-    sitting_prob = (left_leg_proportion_sitting_prob + left_leg_angle_sitting_prob + right_leg_proportion_sitting_prob + right_leg_angle_sitting_prob)/4
-
-    print('P(keypoints|standing) = ' + str(standing_prob))
-    print('P(keypoints|sitting) = ' + str(sitting_prob))
+    denominator = features['left_leg']['proportion']['confidence'] + features['left_leg']['angle']['confidence'] + features['right_leg']['proportion']['confidence'] + features['right_leg']['angle']['confidence']
+    standing_prob = (left_leg_proportion_standing_prob + left_leg_angle_standing_prob + right_leg_proportion_standing_prob + right_leg_angle_standing_prob)/denominator
+    sitting_prob = (left_leg_proportion_sitting_prob + left_leg_angle_sitting_prob + right_leg_proportion_sitting_prob + right_leg_angle_sitting_prob)/denominator
 
     # return the pose with the higher probability
     return 'sitting' if sitting_prob > standing_prob else 'standing'
@@ -164,6 +162,7 @@ def main():
 
     # read pose keypoint json path argument
     filepath = args.path
+    filepath = 'output_json/friedrich_standing.json'
     filename = os.path.basename(filepath)
 
     # load pose keypoints from json
